@@ -1,4 +1,4 @@
-// Darkness triggering LDR > Relay > UVC LED's
+// Darkness triggering LDR > MOSFET > UVC LED's
 // Quite simply, the LDR detects that the card has been entered,
 // at which point it triggers the MOSFET relay which completes the circuit to the UVC LED's.
 // PIR waits for movement, when the movement stops, it'll trigger the other 
